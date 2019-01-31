@@ -1,0 +1,1617 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "available balance bal for account xxxx9077 as on 26/11/2018 is rs 10586.10 combined available balance bal is rs 10586.10 use mobile banking app to traccountk account (app .kota k.com )",
+        "intent": "Financial Info",
+        "entities": [
+          {
+            "start": 34,
+            "end": 42,
+            "value": "xxxx9077",
+            "entity": "account"
+          },
+          {
+            "start": 49,
+            "end": 59,
+            "value": "26/11/2018",
+            "entity": "date"
+          },
+          {
+            "start": 66,
+            "end": 74,
+            "value": "10586.10",
+            "entity": "amount"
+          }
+        ]
+      },
+      {
+        "text": "your account xx5704 is debited on 26/11/2018 by rs 2,900 towards atm cash withdrawal available balance rs 231,089.22 for more details login to m .s c.com/in / stanchart",
+        "intent": "expense",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "xx5704",
+            "entity": "account"
+          },
+          {
+            "start": 34,
+            "end": 44,
+            "value": "26/11/2018",
+            "entity": "date"
+          },
+          {
+            "start": 51,
+            "end": 56,
+            "value": "2,900",
+            "entity": "amount"
+          }
+        ]
+      },
+      {
+        "text": "a charge of rs 117.00 has been initiated on your american express card no xxx71007 at techprocess retail pg on 26/11/2018 at 12 29pm ist.",
+        "intent": "expense",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "117.00",
+            "entity": "amount"
+          },
+          {
+            "start": 74,
+            "end": 82,
+            "value": "xxx71007",
+            "entity": "card"
+          },
+          {
+            "start": 86,
+            "end": 107,
+            "value": "techprocess retail pg",
+            "entity": "merchant"
+          },
+          {
+            "start": 111,
+            "end": 121,
+            "value": "26/11/2018",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "thank you for using stanchart card no xx7881 on 26/11/18 for rs 2.00 to check emi eligibility on spends above rs 5000, log on to m .s c.com/in /t&c apply.",
+        "intent": "expense",
+        "entities": [
+          {
+            "start": 38,
+            "end": 44,
+            "value": "xx7881",
+            "entity": "card"
+          },
+          {
+            "start": 48,
+            "end": 56,
+            "value": "26/11/18",
+            "entity": "date"
+          },
+          {
+            "start": 64,
+            "end": 68,
+            "value": "2.00",
+            "entity": "amount"
+          }
+        ]
+      },
+      {
+        "text": "thank you for using stanchart card no xx7881 on 26/11/18 for rs 1000.00 to check emi eligibility on spends above rs 5000, log on to m .s c.com/in /t&c apply.",
+        "intent": "expense",
+        "entities": [
+          {
+            "start": 38,
+            "end": 44,
+            "value": "xx7881",
+            "entity": "card"
+          },
+          {
+            "start": 48,
+            "end": 56,
+            "value": "26/11/18",
+            "entity": "date"
+          },
+          {
+            "start": 64,
+            "end": 71,
+            "value": "1000.00",
+            "entity": "amount"
+          }
+        ]
+      },
+      {
+        "text": "a charge of rs 122.94 has been initiated on your american express card no xxx71007 at zaakpay/ uber bv p on 29/11/2018 at 08 31am ist.",
+        "intent": "expense",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "122.94",
+            "entity": "amount"
+          },
+          {
+            "start": 74,
+            "end": 82,
+            "value": "xxx71007",
+            "entity": "card"
+          },
+          {
+            "start": 108,
+            "end": 118,
+            "value": "29/11/2018",
+            "entity": "date"
+          },
+          {
+            "start": 86,
+            "end": 93,
+            "value": "zaakpay",
+            "entity": "merchant"
+          }
+        ]
+      },
+      {
+        "text": "thanks for paying rs 204.54 from account xxxx4368 to techbigtreeentertain via netbanking call 18002586161 if txn not done by you",
+        "intent": "expense",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "204.54",
+            "entity": "amount"
+          },
+          {
+            "start": 41,
+            "end": 49,
+            "value": "xxxx4368",
+            "entity": "account"
+          },
+          {
+            "start": 53,
+            "end": 73,
+            "value": "techbigtreeentertain",
+            "entity": "merchant"
+          }
+        ]
+      },
+      {
+        "text": "your accountcount 424xxxx6372 has been debited on 29/11/2018 by rs 11,000.00 towards neft request available balance rs 73,923.72 /stanchart",
+        "intent": "expense",
+        "entities": [
+          {
+            "start": 18,
+            "end": 29,
+            "value": "424xxxx6372",
+            "entity": "account"
+          },
+          {
+            "start": 50,
+            "end": 60,
+            "value": "29/11/2018",
+            "entity": "date"
+          },
+          {
+            "start": 67,
+            "end": 76,
+            "value": "11,000.00",
+            "entity": "amount"
+          }
+        ]
+      },
+      {
+        "text": "rs 11,000.00 credited to your account no xxxxxxx4464 on 29/11/18 through neft with utr lb36701811293444 by mr arunraj natara01",
+        "intent": "income",
+        "entities": [
+          {
+            "start": 3,
+            "end": 12,
+            "value": "11,000.00",
+            "entity": "amount"
+          },
+          {
+            "start": 41,
+            "end": 52,
+            "value": "xxxxxxx4464",
+            "entity": "account"
+          },
+          {
+            "start": 56,
+            "end": 64,
+            "value": "29/11/18",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "rs 1,350.00 was spent on your sbi card ending 9262 at paytm on 28/11/18 available credit limit rs 40,862.03.",
+        "intent": "expense",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "1,350.00",
+            "entity": "amount"
+          },
+          {
+            "start": 46,
+            "end": 50,
+            "value": "9262",
+            "entity": "card"
+          },
+          {
+            "start": 54,
+            "end": 59,
+            "value": "paytm",
+            "entity": "merchant"
+          },
+          {
+            "start": 63,
+            "end": 71,
+            "value": "28/11/18",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "alert you've spent rs 180.00 via debit card xx4813 at hyderabad gvk one on 2018/11/29 20 45 51 available balance rs 666.88 .not you?call 18002586161.",
+        "intent": "expense",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "180.00",
+            "entity": "amount"
+          },
+          {
+            "start": 44,
+            "end": 50,
+            "value": "xx4813",
+            "entity": "card"
+          },
+          {
+            "start": 54,
+            "end": 71,
+            "value": "hyderabad gvk one",
+            "entity": "merchant"
+          },
+          {
+            "start": 75,
+            "end": 85,
+            "value": "2018/11/29",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "your collect request initiated to emailaddr for rs 437.00 expired on 27/11/2018 15 14.",
+        "intent": "Financial Info",
+        "entities": [
+          {
+            "start": 51,
+            "end": 57,
+            "value": "437.00",
+            "entity": "amount"
+          },
+          {
+            "start": 69,
+            "end": 79,
+            "value": "27/11/2018",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "rs 750.00 was spent on your sbi card ending 4510 at tapzo on 28/11/18 available credit limit rs 0.00.",
+        "intent": "expense",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "750.00",
+            "entity": "amount"
+          },
+          {
+            "start": 44,
+            "end": 48,
+            "value": "4510",
+            "entity": "card"
+          },
+          {
+            "start": 52,
+            "end": 57,
+            "value": "tapzo",
+            "entity": "merchant"
+          },
+          {
+            "start": 61,
+            "end": 69,
+            "value": "28/11/18",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "dear customer, txn on indusind bank credit card xx7003 for rs 649.2 on 27/11/18 13 25 at book my show  is approved pls call 18602677777 for query.",
+        "intent": "expense",
+        "entities": [
+          {
+            "start": 48,
+            "end": 54,
+            "value": "xx7003",
+            "entity": "card"
+          },
+          {
+            "start": 62,
+            "end": 67,
+            "value": "649.2",
+            "entity": "amount"
+          },
+          {
+            "start": 71,
+            "end": 79,
+            "value": "27/11/18",
+            "entity": "date"
+          },
+          {
+            "start": 89,
+            "end": 101,
+            "value": "book my show",
+            "entity": "merchant"
+          }
+        ]
+      },
+      {
+        "text": "alert you've spent rs 500.00 via debit card xx4813 at sri venkateshwara on 2018/11/28 18 59 07 available balance rs 1051.42 .not you?call 18002586161.",
+        "intent": "expense",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "500.00",
+            "entity": "amount"
+          },
+          {
+            "start": 44,
+            "end": 50,
+            "value": "xx4813",
+            "entity": "card"
+          },
+          {
+            "start": 54,
+            "end": 71,
+            "value": "sri venkateshwara",
+            "entity": "merchant"
+          },
+          {
+            "start": 75,
+            "end": 85,
+            "value": "2018/11/28",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "your account xxxxxxx5645 is debited for rs 86.00 on 27/11/2018 18 24 and credited to account xxxxxxxxxxx8251 (upi ref no 833154249596).",
+        "intent": "expense",
+        "entities": [
+          {
+            "start": 13,
+            "end": 24,
+            "value": "xxxxxxx5645",
+            "entity": "account"
+          },
+          {
+            "start": 43,
+            "end": 48,
+            "value": "86.00",
+            "entity": "amount"
+          },
+          {
+            "start": 52,
+            "end": 62,
+            "value": "27/11/2018",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "alert you've spent rs 1000.00 on credit card xx7902 at sai vishnu petro on 2018/11/27 07 51 55 available balance / rs 269962.00, curr o/s / rs 80038.00 .not you? call 18002586161.",
+        "intent": "expense",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "1000.00",
+            "entity": "amount"
+          },
+          {
+            "start": 45,
+            "end": 51,
+            "value": "xx7902",
+            "entity": "card"
+          },
+          {
+            "start": 55,
+            "end": 71,
+            "value": "sai vishnu petro",
+            "entity": "merchant"
+          },
+          {
+            "start": 75,
+            "end": 85,
+            "value": "2018/11/27",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "your account 445xxxx7578 has been credited on 27/11/2018 by rs 1,100.00 available balance rs 35,566.97 /stanchart",
+        "intent": "income",
+        "entities": [
+          {
+            "start": 13,
+            "end": 24,
+            "value": "445xxxx7578",
+            "entity": "account"
+          },
+          {
+            "start": 46,
+            "end": 56,
+            "value": "27/11/2018",
+            "entity": "date"
+          },
+          {
+            "start": 63,
+            "end": 71,
+            "value": "1,100.00",
+            "entity": "amount"
+          }
+        ]
+      },
+      {
+        "text": "you've paid rs 194 to swiggy via phonepe from your standard chartered bank account.",
+        "intent": "expense",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "194",
+            "entity": "amount"
+          },
+          {
+            "start": 22,
+            "end": 28,
+            "value": "swiggy",
+            "entity": "merchant"
+          }
+        ]
+      },
+      {
+        "text": "your account 224xxxx4415 has been debited on 28/11/2018 by rs 130.00 towards online payment available balance rs 30,232.21 /stanchart",
+        "intent": "expense",
+        "entities": [
+          {
+            "start": 13,
+            "end": 24,
+            "value": "224xxxx4415",
+            "entity": "account"
+          },
+          {
+            "start": 45,
+            "end": 55,
+            "value": "28/11/2018",
+            "entity": "date"
+          },
+          {
+            "start": 62,
+            "end": 68,
+            "value": "130.00",
+            "entity": "amount"
+          }
+        ]
+      },
+      {
+        "text": "your bank account 100xxx840038 has been credited for rs 100,000.00 towards a neft credit from mr kshitij aggarwal with ref no lb36701811273429 available balance is 223,688.87",
+        "intent": "income",
+        "entities": [
+          {
+            "start": 18,
+            "end": 30,
+            "value": "100xxx840038",
+            "entity": "account"
+          },
+          {
+            "start": 56,
+            "end": 66,
+            "value": "100,000.00",
+            "entity": "amount"
+          }
+        ]
+      },
+      {
+        "text": "rs 11,000.00 credited to your account no xxxxxxx4464 on 29/11/18 through neft with utr lb36701811293444 by mr arunraj natara01",
+        "intent": "income",
+        "entities": [
+          {
+            "start": 3,
+            "end": 12,
+            "value": "11,000.00",
+            "entity": "amount"
+          },
+          {
+            "start": 41,
+            "end": 52,
+            "value": "xxxxxxx4464",
+            "entity": "account"
+          },
+          {
+            "start": 56,
+            "end": 64,
+            "value": "29/11/18",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "dear customer, txn of rs 118.90 using credit card xx5006 done at google xwinzip on 27/11/18 available balance cr lmt rs 1,375.35 for dispute,call 04033667777.",
+        "intent": "expense",
+        "entities": [
+          {
+            "start": 25,
+            "end": 31,
+            "value": "118.90",
+            "entity": "amount"
+          },
+          {
+            "start": 50,
+            "end": 56,
+            "value": "xx5006",
+            "entity": "card"
+          },
+          {
+            "start": 65,
+            "end": 79,
+            "value": "google xwinzip",
+            "entity": "merchant"
+          },
+          {
+            "start": 83,
+            "end": 91,
+            "value": "27/11/18",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "dear customer, rs 13,000.00 has been credited to your american express card xxxxxxxxxx11003 on 26/11/2018 payment subject to realisation thank you.",
+        "intent": "income",
+        "entities": [
+          {
+            "start": 18,
+            "end": 27,
+            "value": "13,000.00",
+            "entity": "amount"
+          },
+          {
+            "start": 76,
+            "end": 91,
+            "value": "xxxxxxxxxx11003",
+            "entity": "card"
+          },
+          {
+            "start": 95,
+            "end": 105,
+            "value": "26/11/2018",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "dear customer, collect request is initiated from emailaddr to emailaddr for rs 12.00 on 27/11/2018 14 45 you will be notified once payer approves.",
+        "intent": "Financial Info",
+        "entities": []
+      },
+      {
+        "text": "you've got fresh funds! your account ending with xxxxxxxx6733 has been credited with rs 10000 updated account balance is rs 452361",
+        "intent": "income",
+        "entities": [
+          {
+            "start": 49,
+            "end": 61,
+            "value": "xxxxxxxx6733",
+            "entity": "account"
+          },
+          {
+            "start": 88,
+            "end": 93,
+            "value": "10000",
+            "entity": "amount"
+          }
+        ]
+      },
+      {
+        "text": "your collect request initiated to emailaddr for rs 437.00 expired on 27/11/2018 15 10.",
+        "intent": "Financial Info",
+        "entities": [
+          {
+            "start": 51,
+            "end": 57,
+            "value": "437.00",
+            "entity": "amount"
+          },
+          {
+            "start": 69,
+            "end": 79,
+            "value": "27/11/2018",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "dear customer, gentle reminder that your emi of rs 65212 on hdfc bank loan account 57891922 is due on 04/12/2018 download httpaddr .ly/2gos9oo to know more.",
+        "intent": "Financial Info",
+        "entities": [
+          {
+            "start": 83,
+            "end": 91,
+            "value": "57891922",
+            "entity": "account"
+          },
+          {
+            "start": 102,
+            "end": 112,
+            "value": "04/12/2018",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "27 11 18 01 your one/time password (otp) is xxxxxx for ibft of rs 110,000.00 from xxxx xxxxxx please do not share this password with anyone / stanchart",
+        "intent": "Financial Info",
+        "entities": []
+      },
+      {
+        "text": "your account 531xxxx8449 has been debited on 27/11/2018 by rs 2,701.00 towards credit card repayment available balance rs 399,063.97 /stanchart",
+        "intent": "expense",
+        "entities": [
+          {
+            "start": 13,
+            "end": 24,
+            "value": "531xxxx8449",
+            "entity": "account"
+          },
+          {
+            "start": 45,
+            "end": 55,
+            "value": "27/11/2018",
+            "entity": "date"
+          },
+          {
+            "start": 62,
+            "end": 70,
+            "value": "2,701.00",
+            "entity": "amount"
+          }
+        ]
+      },
+      {
+        "text": "your credit card mini statement as of 23/11/18  statement outstanding rs 53,300.93, minimum due rs 2,782.47, payment due date 17/12/18/stanchart.",
+        "intent": "Financial Info",
+        "entities": []
+      },
+      {
+        "text": "your account xx9343 is debited on 27/11/2018 by rs 443.00 towards purchase available balance  rs 28,008.37 for more details login to m .s c.com/in / stanchart",
+        "intent": "expense",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "xx9343",
+            "entity": "account"
+          },
+          {
+            "start": 34,
+            "end": 44,
+            "value": "27/11/2018",
+            "entity": "date"
+          },
+          {
+            "start": 51,
+            "end": 57,
+            "value": "443.00",
+            "entity": "amount"
+          }
+        ]
+      },
+      {
+        "text": "514504 is your one time password for online purchase, amex card ending 41004, if not requested call the number on back of card 28/11/2018, 05 56 ist.",
+        "intent": "Financial Info",
+        "entities": []
+      },
+      {
+        "text": "bzq/ is your one time password (otp) for transaction of rs at on your debit card ending valid till ist / stanchart.",
+        "intent": "Financial Info",
+        "entities": []
+      },
+      {
+        "text": "your sip purchase in folio under hdfc small cap fund / direct growth plan for rs has been processed at the nav of  for  units (with applicable load, if any).",
+        "intent": "Financial Info",
+        "entities": []
+      },
+      {
+        "text": "available balance bal for account as on is rs combined available balance bal is rs  use mobile banking app to track account (app .kota ",
+        "intent": "Financial Info",
+        "entities": []
+      },
+      {
+        "text": "you've got fresh funds! your account ending with xxxxxxxx8709 has been credited with rs 10000 updated account balance is rs 452361",
+        "intent": "income",
+        "entities": [
+          {
+            "start": 49,
+            "end": 61,
+            "value": "xxxxxxxx8709",
+            "entity": "account"
+          },
+          {
+            "start": 88,
+            "end": 93,
+            "value": "10000",
+            "entity": "amount"
+          }
+        ]
+      },
+      {
+        "text": "rs 90.00 credited to account xxxxxx2814 on 30/11/18 by account linked to vpa emailaddr (upi ref no 833412628887).",
+        "intent": "income",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "90.00",
+            "entity": "amount"
+          },
+          {
+            "start": 29,
+            "end": 39,
+            "value": "xxxxxx2814",
+            "entity": "account"
+          },
+          {
+            "start": 43,
+            "end": 51,
+            "value": "30/11/18",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "hello! your account 890030 has been credited with rs 5000 on 30nov18 the account balance is rs 5248.85 info neft/lb36701811306069/mr arunraj nataraj call 18605005555 (if in india) if you have not done this transaction.",
+        "intent": "income",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "890030",
+            "entity": "account"
+          },
+          {
+            "start": 53,
+            "end": 57,
+            "value": "5000",
+            "entity": "amount"
+          },
+          {
+            "start": 61,
+            "end": 68,
+            "value": "30nov18",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "we are pleased to inform that tdr/stdr no dated for rs has been opened and you are eligible for a loan against it",
+        "intent": "Financial Info",
+        "entities": []
+      },
+      {
+        "text": "your account xx5704 is debited on 26/11/2018 by rs 2,900 towards atm cash withdrawal available balance rs 231,089.22 for more details login to m .s c.com/in / stanchart",
+        "intent": "expense",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "xx5704",
+            "entity": "account"
+          },
+          {
+            "start": 34,
+            "end": 44,
+            "value": "26/11/2018",
+            "entity": "date"
+          },
+          {
+            "start": 51,
+            "end": 56,
+            "value": "2,900",
+            "entity": "amount"
+          }
+        ]
+      },
+      {
+        "text": "thanks for paying rs 204.54 from account xxxx4368 to techbigtreeentertain via netbanking call 18002586161 if txn not done by you",
+        "intent": "expense",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "204.54",
+            "entity": "amount"
+          },
+          {
+            "start": 41,
+            "end": 49,
+            "value": "xxxx4368",
+            "entity": "account"
+          },
+          {
+            "start": 53,
+            "end": 73,
+            "value": "techbigtreeentertain",
+            "entity": "merchant"
+          }
+        ]
+      },
+      {
+        "text": "your account 225xxxx4032 has been debited on 29/11/2018 by rs 480.00 towards your cheque number 000049 available balance rs 32,370.75 you can also transfer funds instantly using our 24x7 online banking facility at www sc .com/in /stanchart",
+        "intent": "expense",
+        "entities": [
+          {
+            "start": 13,
+            "end": 24,
+            "value": "225xxxx4032",
+            "entity": "account"
+          },
+          {
+            "start": 45,
+            "end": 55,
+            "value": "29/11/2018",
+            "entity": "date"
+          },
+          {
+            "start": 62,
+            "end": 68,
+            "value": "480.00",
+            "entity": "amount"
+          }
+        ]
+      },
+      {
+        "text": "one more chance! flat rs cashback on min recharge/bill of  use code  on freecharge for emailaddr till .in/bi8",
+        "intent": "Advertisements",
+        "entities": []
+      },
+      {
+        "text": "get rs bigbasket voucher on doing 3 transactions till of min rs each via your virtual prepaid card t&c www .g s.im/k/?t=hajnivyu4qn",
+        "intent": "Advertisements",
+        "entities": []
+      },
+      {
+        "text": "derivative pick / buy at cmp rs for tgt of rs for 2/3 days sl at rs bit .ly/2ueemez refer disclaimer",
+        "intent": "Advertisements",
+        "entities": []
+      },
+      {
+        "text": "book profit in put at rs buy call issued on at rs httpaddr .ly/2ueemez refer disclaimer",
+        "intent": "Advertisements",
+        "entities": []
+      },
+      {
+        "text": "bookmark and login to our new online trading website httpaddr co .in/trade/ and download your reports / statements anytim e scsi",
+        "intent": "Advertisements",
+        "entities": []
+      },
+      {
+        "text": "we are pleased to inform that tdr/stdr no xxxxx567123 dated 13/12/18 for rs 10,50,000.00 has been opened and you are eligible for a loan against it",
+        "intent": "Financial Info",
+        "entities": []
+      },
+      {
+        "text": "your unclear balance as of today is rs 0,your balance in account xxxx4519 including the un/clear amount is rs 3490.88, to view your transaction and other details, you can visit sc mobile web at m sc .com/in ? stanchart.",
+        "intent": "Financial Info",
+        "entities": []
+      },
+      {
+        "text": "thank you for using state bank internet banking reference no for paytm money transaction of rs 1000.0 from account ending 6261 on 26/11/18 at 22 08 is igaevmxfu1.",
+        "intent": "expense",
+        "entities": [
+          {
+            "start": 95,
+            "end": 101,
+            "value": "1000.0",
+            "entity": "amount"
+          },
+          {
+            "start": 122,
+            "end": 126,
+            "value": "6261",
+            "entity": "account"
+          },
+          {
+            "start": 130,
+            "end": 138,
+            "value": "26/11/18",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "3322110 global market update on 26/11/18 dow jones closed higher by 1.46% and nasdaq was up by 2.06% on 27/11/18 the sgx nifty is trading lower by 49 points at 10,598.",
+        "intent": "Advertisements",
+        "entities": []
+      },
+      {
+        "text": "3322110 technical pick / buy adani power between cmp rs 50.70 and rs 48.75 for tgt of rs 56 for 3/5 days sl @ rs 48 bit .ly/2ueemez refer disclaimer",
+        "intent": "Advertisements",
+        "entities": []
+      },
+      {
+        "text": "hsbc bill payment alerts  your bescom bill for rs 1321.00 due on 27/11/18 has been successfully processed.",
+        "intent": "Financial Info",
+        "entities": []
+      },
+      {
+        "text": "dear hdfcbank card member, online payment of rs 3000 vide ref# pscb6929097150 was credited to your card ending 3472 on 26/11/2018 value date 25/11/2018",
+        "intent": "income",
+        "entities": [
+          {
+            "start": 48,
+            "end": 52,
+            "value": "3000",
+            "entity": "amount"
+          },
+          {
+            "start": 111,
+            "end": 115,
+            "value": "3472",
+            "entity": "card"
+          },
+          {
+            "start": 119,
+            "end": 129,
+            "value": "26/11/2018",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "we have received your payment of rs 24,536.00 towards your credit card number ending 0947 thank you (cheque/ecs payment subject to realisation)/stanchart",
+        "intent": "Financial Info",
+        "entities": []
+      },
+      {
+        "text": "hello! we have credited payment of rs 540.44 to your vodafone mobile phone 9920209746 your outstanding as on 2018/11/30 rs 0.0 thank you.",
+        "intent": "Financial Info",
+        "entities": []
+      },
+      {
+        "text": "dear hdfc bank card member, rs 7.5 has been credited on your credit card ending 7902 from sai vishnu petro statiobangalore ind on 29/11/2018.",
+        "intent": "income",
+        "entities": [
+          {
+            "start": 31,
+            "end": 34,
+            "value": "7.5",
+            "entity": "amount"
+          },
+          {
+            "start": 80,
+            "end": 84,
+            "value": "7902",
+            "entity": "card"
+          },
+          {
+            "start": 130,
+            "end": 140,
+            "value": "29/11/2018",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "thank you for using stanchart card no xx6023 on 29/11/18 for rs 3012.77 to check emi eligibility on spends above rs 5000, log on to m .s c.com/in /t&c apply.",
+        "intent": "expense",
+        "entities": [
+          {
+            "start": 38,
+            "end": 44,
+            "value": "xx6023",
+            "entity": "account"
+          },
+          {
+            "start": 48,
+            "end": 56,
+            "value": "29/11/18",
+            "entity": "date"
+          },
+          {
+            "start": 64,
+            "end": 71,
+            "value": "3012.77",
+            "entity": "amount"
+          }
+        ]
+      },
+      {
+        "text": "dear customer, txn on indusind bank credit card xx3006 for rs 410 on 29/11/18 13 38 at the new   is approved pls call 18602677777 for query.",
+        "intent": "expense",
+        "entities": [
+          {
+            "start": 48,
+            "end": 54,
+            "value": "xx3006",
+            "entity": "card"
+          },
+          {
+            "start": 62,
+            "end": 65,
+            "value": "410",
+            "entity": "amount"
+          },
+          {
+            "start": 69,
+            "end": 77,
+            "value": "29/11/18",
+            "entity": "date"
+          },
+          {
+            "start": 87,
+            "end": 94,
+            "value": "the new",
+            "entity": "merchant"
+          }
+        ]
+      },
+      {
+        "text": "balance in savings account 578691 as of 29/11/2018 eod is rs 37.72 credits in account are subject to clearing.",
+        "intent": "Financial Info",
+        "entities": []
+      },
+      {
+        "text": "hello, your account 0245 had been credited with rs 1000 on 24may18 the account balance is rs 97733.30 info imps/p2a/817999903740/919901211111/52 call 18605005555 (if in india) if you have not done this transaction .",
+        "intent": "income",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "0245",
+            "entity": "account"
+          },
+          {
+            "start": 51,
+            "end": 55,
+            "value": "1000",
+            "entity": "amount"
+          },
+          {
+            "start": 59,
+            "end": 66,
+            "value": "24may18",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "your account xx4567 is credited on 21/05/2018 by rs 25,700.00 towards salary/reimbursement available balance rs 26,00.40 to kno more login to m .s c.com/in /stan",
+        "intent": "income",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "xx4567",
+            "entity": "account"
+          },
+          {
+            "start": 35,
+            "end": 45,
+            "value": "21/05/2018",
+            "entity": "date"
+          },
+          {
+            "start": 52,
+            "end": 61,
+            "value": "25,700.00",
+            "entity": "amount"
+          }
+        ]
+      },
+      {
+        "text": "hello, your account 0345 has been debited with rs 700 on 22may18 the account balance is rs 173680.30 .info neft/mb/axmb181811122281/maya sing h call 18605005555 (if in india) if you have not done this transaction",
+        "intent": "expense",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "0345",
+            "entity": "account"
+          },
+          {
+            "start": 50,
+            "end": 53,
+            "value": "700",
+            "entity": "amount"
+          },
+          {
+            "start": 57,
+            "end": 64,
+            "value": "22may18",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "hello, your account 0245 had been credited with rs 1000 on 24may18 the account balance is rs 97733.30 info imps/p2a/817999903740/919901211111/52 call 18605005555 (if in india) if you have not done this transaction .",
+        "intent": "income",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "0245",
+            "entity": "account"
+          },
+          {
+            "start": 51,
+            "end": 55,
+            "value": "1000",
+            "entity": "amount"
+          },
+          {
+            "start": 59,
+            "end": 66,
+            "value": "24may18",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "thank you for using stanchart card no xx7456 on 28/08/18 for rs 500.00 to check emi eligibility on spends above rs 5000, log on to m .s c.com/in /t&c apply.",
+        "intent": "expense",
+        "entities": [
+          {
+            "start": 38,
+            "end": 44,
+            "value": "xx7456",
+            "entity": "card"
+          },
+          {
+            "start": 48,
+            "end": 56,
+            "value": "28/08/18",
+            "entity": "date"
+          },
+          {
+            "start": 64,
+            "end": 70,
+            "value": "500.00",
+            "entity": "amount"
+          }
+        ]
+      },
+      {
+        "text": "thank you for using stanchart card no xx8747 on 03/09/18 for rs 193.00 to check emi eligibility on spends above rs 5000, log on to m .s c.com/in /t&c apply.",
+        "intent": "expense",
+        "entities": [
+          {
+            "start": 38,
+            "end": 44,
+            "value": "xx8747",
+            "entity": "card"
+          },
+          {
+            "start": 48,
+            "end": 56,
+            "value": "03/09/18",
+            "entity": "date"
+          },
+          {
+            "start": 64,
+            "end": 70,
+            "value": "193.00",
+            "entity": "amount"
+          }
+        ]
+      },
+      {
+        "text": "thank you for using stanchart card no xx8747 on 01/09/18 for rs 3372.75 to check emi eligibility on spends above rs 5000, log on to m .s c.com/in /t&c apply.",
+        "intent": "expense",
+        "entities": [
+          {
+            "start": 38,
+            "end": 44,
+            "value": "xx8747",
+            "entity": "card"
+          },
+          {
+            "start": 48,
+            "end": 56,
+            "value": "01/09/18",
+            "entity": "date"
+          },
+          {
+            "start": 64,
+            "end": 71,
+            "value": "3372.75",
+            "entity": "amount"
+          }
+        ]
+      },
+      {
+        "text": "rs 465.00 was spent on ur hdfcbank credit card ending 8765 on 2018/08/22 19 43 05 at mobikwik available balance / rs 100000.00, curr o/s / rs 4000.0",
+        "intent": "expense",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "465.00",
+            "entity": "amount"
+          },
+          {
+            "start": 54,
+            "end": 58,
+            "value": "8765",
+            "entity": "card"
+          },
+          {
+            "start": 62,
+            "end": 72,
+            "value": "2018/08/22",
+            "entity": "date"
+          },
+          {
+            "start": 85,
+            "end": 93,
+            "value": "mobikwik",
+            "entity": "merchant"
+          }
+        ]
+      },
+      {
+        "text": "rs 1200.00 was spent on ur swatbank credit card ending 4127 on 2018/03/22 12 16 46 at swat point available balance / rs 300000, curr o/s / rs 333.33",
+        "intent": "expense",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "1200.00",
+            "entity": "amount"
+          },
+          {
+            "start": 55,
+            "end": 59,
+            "value": "4127",
+            "entity": "card"
+          },
+          {
+            "start": 63,
+            "end": 73,
+            "value": "2018/03/22",
+            "entity": "date"
+          },
+          {
+            "start": 86,
+            "end": 96,
+            "value": "swat point",
+            "entity": "merchant"
+          }
+        ]
+      },
+      {
+        "text": "dear customer, there is an neft credit of rs 45,593.00 in your account 456xxxx4519 on 23/11/2018 available balance rs 49,085.88 /stanchart",
+        "intent": "income",
+        "entities": [
+          {
+            "start": 45,
+            "end": 54,
+            "value": "45,593.00",
+            "entity": "amount"
+          },
+          {
+            "start": 71,
+            "end": 82,
+            "value": "456xxxx4519",
+            "entity": "account"
+          },
+          {
+            "start": 86,
+            "end": 96,
+            "value": "23/11/2018",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "hello! your account 012062 has been debited by rs 13429 on 05sep18 the account balance is rs 56685.10 .info ppr051401726571 emi 05/09/201 8 call 186050055",
+        "intent": "expense",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "012062",
+            "entity": "account"
+          },
+          {
+            "start": 50,
+            "end": 55,
+            "value": "13429",
+            "entity": "amount"
+          },
+          {
+            "start": 59,
+            "end": 66,
+            "value": "05sep18",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "dear hdfcbank card member, online payment of rs 19000 vide ref# nuti6647815634 was credited to your card ending 8427 on 06/09/2018 value date 05/09/2018 2018",
+        "intent": "income",
+        "entities": [
+          {
+            "start": 48,
+            "end": 53,
+            "value": "19000",
+            "entity": "amount"
+          },
+          {
+            "start": 112,
+            "end": 116,
+            "value": "8427",
+            "entity": "card"
+          },
+          {
+            "start": 120,
+            "end": 130,
+            "value": "06/09/2018",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "hello! your account 012062 has been debited by rs 14429 on 25sep18 the account balance is rs 56685.10 .info ppr051401726571 emi 05/09/201 8 call 186050055",
+        "intent": "expense",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "012062",
+            "entity": "account"
+          },
+          {
+            "start": 50,
+            "end": 55,
+            "value": "14429",
+            "entity": "amount"
+          },
+          {
+            "start": 59,
+            "end": 66,
+            "value": "25sep18",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "dear customer, account xx1329 has been debited for rs 1000.00 on 07/09/18 and account xx8265 is credited upi ref no 825042118221.",
+        "intent": "expense",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "xx1329",
+            "entity": "account"
+          },
+          {
+            "start": 54,
+            "end": 61,
+            "value": "1000.00",
+            "entity": "amount"
+          },
+          {
+            "start": 65,
+            "end": 73,
+            "value": "07/09/18",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "your account xx5704 is credited on 23/11/2018 by rs 160,195.00 towards salary/reimbursement available balance rs 238,989.22 to know more login to m .s c.com/in /stanchart",
+        "intent": "income",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "xx5704",
+            "entity": "account"
+          },
+          {
+            "start": 35,
+            "end": 45,
+            "value": "23/11/2018",
+            "entity": "date"
+          },
+          {
+            "start": 52,
+            "end": 62,
+            "value": "160,195.00",
+            "entity": "amount"
+          }
+        ]
+      },
+      {
+        "text": "rs 120.00 debited from account xx2814 on 24/12/18 to vpa emailaddr ref no 835812326813) not you? call on 18002586161 to report",
+        "intent": "expense",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "120.00",
+            "entity": "amount"
+          },
+          {
+            "start": 31,
+            "end": 37,
+            "value": "xx2814",
+            "entity": "account"
+          },
+          {
+            "start": 41,
+            "end": 49,
+            "value": "24/12/18",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "hello! your account 012345 has been debited with rs 710 on 26dec18 the account balance is rs 173680.30 .info neft/mb/axmb181811122281/maya sing h call 18605005555 (if in india) if you have not done this transaction",
+        "intent": "expense",
+        "entities": [
+          {
+            "start": 52,
+            "end": 55,
+            "value": "710",
+            "entity": "amount"
+          },
+          {
+            "start": 59,
+            "end": 66,
+            "value": "26dec18",
+            "entity": "date"
+          },
+          {
+            "start": 20,
+            "end": 26,
+            "value": "012345",
+            "entity": "account"
+          }
+        ]
+      },
+      {
+        "text": "rs 4189.00 was spent on ur hdfcbank credit card ending 8765 on 2018/06/23 17 54 53 at flipkart payments available balance / rs 328123.00, curr o/s / rs 1877.000",
+        "intent": "expense",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "4189.00",
+            "entity": "amount"
+          },
+          {
+            "start": 55,
+            "end": 59,
+            "value": "8765",
+            "entity": "card"
+          },
+          {
+            "start": 63,
+            "end": 73,
+            "value": "2018/06/23",
+            "entity": "date"
+          },
+          {
+            "start": 86,
+            "end": 103,
+            "value": "flipkart payments",
+            "entity": "merchant"
+          }
+        ]
+      },
+      {
+        "text": "rs 456.00 was spent on ur hdfcbank credit card ending 8765 on 2018/12/26 19 43 05 at mobikwik available balance / rs  100000.00, curr o/s / rs 4000.00",
+        "intent": "expense",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "456.00",
+            "entity": "amount"
+          },
+          {
+            "start": 54,
+            "end": 58,
+            "value": "8765",
+            "entity": "card"
+          },
+          {
+            "start": 62,
+            "end": 72,
+            "value": "2018/12/26",
+            "entity": "date"
+          },
+          {
+            "start": 85,
+            "end": 93,
+            "value": "mobikwik",
+            "entity": "merchant"
+          }
+        ]
+      },
+      {
+        "text": "your account xx4567 is credited on 21/05/2018 by rs 25,700.00 towards salary/reimbursement available balance rs 26,00.40 to know more login to m .s c.com/in /stanchart",
+        "intent": "income",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "xx4567",
+            "entity": "account"
+          },
+          {
+            "start": 35,
+            "end": 45,
+            "value": "21/05/2018",
+            "entity": "date"
+          },
+          {
+            "start": 52,
+            "end": 61,
+            "value": "25,700.00",
+            "entity": "amount"
+          }
+        ]
+      },
+      {
+        "text": "dear customer your account xx4321 had been credited with rs 14,075.00 on 30/01/19 info neft/icms1805312342iy/aaw it the available balance is rs 365,985.60.",
+        "intent": "income",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "xx4321",
+            "entity": "account"
+          },
+          {
+            "start": 60,
+            "end": 69,
+            "value": "14,075.00",
+            "entity": "amount"
+          },
+          {
+            "start": 73,
+            "end": 81,
+            "value": "30/01/19",
+            "entity": "date"
+          }
+        ]
+      }
+    ]
+  }
+}
